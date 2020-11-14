@@ -1,9 +1,8 @@
-console.log("Making an useful messenger extension");
+;debugger
+console.log("Updating permissions for messenger-no-stress; Is this code run in the browser?");
 
-let paragraphs = document.getElementsByTagName('p')
+$('document').ready(function(){ 
+ $("[aria-label=Conversations]").css('visibility', 'hidden')
+ });
 
-for (elem of paragraphs) {
-    elem.style['background-color'] = '#FFC0CB'
-}
 
-$("[aria-label=Conversations]").css('visibility', 'hidden')
