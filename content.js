@@ -1,5 +1,6 @@
-;debugger
-console.log("Updating permissions for messenger-no-stress; Is this code run in the browser?");
+console.log("Am I running this script");
+
+$("[aria-label=Conversations]").css('visibility', 'hidden')
 
 $('document').ready(function(){ 
  $("[aria-label=Conversations]").css('visibility', 'hidden')
