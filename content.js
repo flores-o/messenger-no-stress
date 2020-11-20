@@ -1,6 +1,6 @@
 console.log("Am I running this script");
-
-$('document').ready(function(){
+/*
+$("[aria-label=Conversations]").ready(function(){
  console.log("document loaded")
  if ($("[aria-label=Conversations]"))
      console.log("We can select the element that has aria-label=Conversations");
@@ -9,6 +9,20 @@ $('document').ready(function(){
  try
  {
      console.log($("[aria-label=Conversations]").css('visibility', 'hidden'))
+ //if  the visibility property is successfully set to hidden, the css()
+ //returns
+ //S.fn.init [div, prevObject: S.fn.init(1)]
+ //0: div
+ //length: 1
+ //prevObject: S.fn.init [document]
+ //__proto__: Object(0)
+ //
+ //if the visibility property is not set to hidden, the fucntion returns
+ //S.fn.init [prevObject: S.fn.init(1)]
+ //length: 0
+ //prevObject: S.fn.init [document]
+ //__proto__: Object(0)
+ //
      
  }
  catch(err)
@@ -22,5 +36,5 @@ $('document').ready(function(){
      console.log("Our extension did not change the css")
 
  });
-
+*/
 

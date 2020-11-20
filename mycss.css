@@ -1,0 +1,6 @@
+div[aria-label='Conversations'] {
+	opacity: 0 !important;
+	pointer-events: none !important;
+	height: 0 !important;
+}
+ 
